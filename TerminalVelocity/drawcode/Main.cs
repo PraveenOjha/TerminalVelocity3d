@@ -248,6 +248,9 @@ namespace TerVel
 
             }
             this.inputUpdate();
+
+
+            this.Invalidate();
         }
 
         internal void Exit()
@@ -459,7 +462,7 @@ namespace TerVel
             }
             if (this.updated)
             {
-                base.Invalidate();
+                //base.Invalidate();
                 FrameworkDispatcher.Update();
                 if (!Onloa)
                 {
