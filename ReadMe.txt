@@ -1,3 +1,9 @@
+App .zip Contain executable unzip and use.
+xna 4.0 redist needed ,Intsall form same folder as zip file 
+
+
+
+
 Read Me for app /prototype use .
 
 This software will be best used with visual studio 2012 .
